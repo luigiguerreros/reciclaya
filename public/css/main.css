@@ -6,7 +6,7 @@
  * author: @VictorAlberto87
  * Version: 1.0
  * Usage:CSS3.
- * Pages:
+ * Pages: 
  * CSS font-family: Open Sans
  * CSS font: family=Open+Sans:300italic,400,700,300
  *
@@ -49,11 +49,11 @@
    -ms-user-select: none;
    user-select: none;
 }*/
-*,*:after,*:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
+*,*:after,*:before {    
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
+    padding: 0; 
     margin: 0;
 }
 body {
@@ -95,21 +95,21 @@ button, input, select, textarea {
     transition:all .2s ease;
     -webkit-transition:all .2s ease;
     -moz-transition:all .2s ease;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box; 
     position: relative;
 
 }
 strong{
     font-weight:700;
 }
-input,
-select,
-textarea,
-button,
+input, 
+select, 
+textarea, 
+button, 
 fieldset,
-label,
+label, 
 option{
     font-family: 'Open Sans', sans-serif;
     color:#5D5D5D;
@@ -187,7 +187,7 @@ p{
     margin: 0 auto;
     max-width: 100%;
 }
-.wrapper-intro,
+.wrapper-intro, 
 .content-slider-wrapper {
     background-color: #2E343E !important;
     height: 945px;
@@ -248,7 +248,7 @@ p{
     -webkit-transition: all .3s ease;
 }
 .intro-txt.init{
-    opacity: 1;
+    opacity: 1; 
     top: 374px;
 }
 .intro-txt h1,
@@ -323,7 +323,7 @@ p{
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
-    transition: all 0.5s;
+    transition: all 0.5s; 
 }
 .ha-header{
     position: fixed;
@@ -358,7 +358,7 @@ p{
 .ha-header .logo-nav a img,
 .ha-header .intro-logo a img{
     border:none;
-}
+}   
 .ha-header .nav,
 .header-Init .nav{
     width: 462px;
@@ -512,41 +512,13 @@ p{
 .btn-vmc.active{
     border-color:#00B0E6;
     background:#00B0E6;
-    color:#FFFFFF;
+    color:#FFFFFF; 
 }
 .contendor-work-iner{
     min-height:230px;
     width:100%;
 }
 .contendor-work-iner{
-.arrow-bottom-iner,
-.arrow-parallax{
-    display: block;
-    height: 60px;
-    width: 89px;
-}
-.arrow-parallax{
-    background:url(../images/icon/arrow-bottom.png) center center no-repeat;
-}
-.arrow-bottom-iner{
-    position: absolute;
-    left:50%;
-    margin-left:-44px;
-    bottom:-164px;
-    transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-}
-.bottom-info{
-    width:100%;
-    bottom:0;
-    left:0;
-    background-color:#FFFFFF;
-    height:120px;
-    z-index:9;
-    position: absolute;
-    line-height:120px;
-    font-size:24px;
     padding-top:48px;
 }
 .contendor-work-iner,
@@ -561,7 +533,7 @@ p{
     height:300px;
     background:url(../images/bg/work-bg.jpg) center center no-repeat fixed;
     background-size:100%;
-
+    
     color:#FFFFFF;
 }
 .bottom-work-iner .txt-about-iner{
@@ -571,7 +543,7 @@ p{
 /*Benefice*/
 .slide{
     position:relative !important;
-    top:inherit !important;
+    top:inherit !important; 
 }
 .wrapper-benefice{
     padding:100px 3% 180px;
@@ -879,17 +851,17 @@ p{
     -webkit-transition:all .3s ease-in-out;
 }
 .parsley-error-list:after{
-    bottom: 100%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(0, 176, 230, 0);
-    border-bottom-color: #00B0E6;
-    border-width: 6px;
-    left: 50%;
+    bottom: 100%; 
+    border: solid transparent; 
+    content: " "; 
+    height: 0; 
+    width: 0; 
+    position: absolute; 
+    pointer-events: none; 
+    border-color: rgba(0, 176, 230, 0); 
+    border-bottom-color: #00B0E6; 
+    border-width: 6px; 
+    left: 50%; 
     margin-left: -6px;
 }
 .parsley-error{
